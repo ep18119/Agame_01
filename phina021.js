@@ -15084,7 +15084,7 @@ phina.namespace(function() {
       fixture.shape = shape;
       // TODO: このへんは引数で指定できるようにする
       fixture.density = 1;
-      fixture.friction = 0//0.3;
+      fixture.friction = 0.3//0.3;
       fixture.restitution = 0;//0.5;
       this.body.CreateFixture(fixture);
     },
